@@ -49,7 +49,7 @@
     <string name="pref_video_quality_entry_high" msgid="2874184763684055612">"Alta (30m)"</string>
     <string name="pref_video_quality_entry_low" msgid="5282945640948667598">"Baixa (30m)"</string>
     <string name="pref_video_quality_entry_mms" msgid="2271260293894247704">"MMS (Baixo, 30s)"</string>
-    <string name="pref_video_quality_entry_youtube" msgid="3731902408685997150">"YouTube (Alta, 10m)"</string>
+    <string name="pref_video_quality_entry_youtube" msgid="3731902408685997150">"YouTube (Alta, 15m)"</string>
     <string name="pref_camera_settings_category" msgid="2576236450859613120">"Configurações da câmera"</string>
     <string name="pref_camcorder_settings_category" msgid="460313486231965141">"Configurações da filmadora"</string>
     <string name="pref_camera_picturesize_title" msgid="4333724936665883006">"Tamanho da imagem"</string>
@@ -113,4 +113,61 @@
     <string name="zoom_control_title" msgid="6532562653386981815">"Zoom"</string>
     <string name="switch_to_camera_lable" msgid="8248495141797448471">"Alternar para câmera"</string>
     <string name="switch_to_video_lable" msgid="4525451949497982385">"Alternar para vídeo"</string>
+
+    <!-- Settings screen, Multiple levels entries -->
+    <string name="pref_camera_sharpness_entry_level0">Level 0</string>
+    <string name="pref_camera_sharpness_entry_level1">Level 1</string>
+    <string name="pref_camera_sharpness_entry_level2">Level 2(Padrão)</string>
+    <string name="pref_camera_sharpness_entry_level3">Level 3</string>
+    <string name="pref_camera_sharpness_entry_level4">Level 4</string>
+    <string name="pref_camera_sharpness_entry_level5">Level 5</string>
+
+    <!-- Settings screen, Multiple levels entries -->
+    <string name="pref_camera_contrast_entry_level0">Level 0</string>
+    <string name="pref_camera_contrast_entry_level1">Level 1</string>
+    <string name="pref_camera_contrast_entry_level2">Level 2</string>
+    <string name="pref_camera_contrast_entry_level3">Level 3(Padrão)</string>
+    <string name="pref_camera_contrast_entry_level4">Level 4</string>
+    <string name="pref_camera_contrast_entry_level5">Level 5</string>
+
+
+    <!-- Settings screen, Multiple levels entries -->
+    <string name="pref_camera_saturation_entry_level0">Level 0</string>
+    <string name="pref_camera_saturation_entry_level1">Level 1</string>
+    <string name="pref_camera_saturation_entry_level2">Level 2</string>
+    <string name="pref_camera_saturation_entry_level3">Level 3(Padrão)</string>
+    <string name="pref_camera_saturation_entry_level4">Level 4</string>
+    <string name="pref_camera_saturation_entry_level5">Level 5</string>
+
+    <!-- Settings screen, Select sharpness title -->
+    <string name="pref_camera_sharpness_title">Nitidez</string>
+
+    <!-- Settings screen, Select contrast title -->
+    <string name="pref_camera_contrast_title">Contraste</string>
+
+    <!-- Settings screen, Select saturation title -->
+    <string name="pref_camera_saturation_title">Saturação</string>
+
+    <string name="pref_camera_iso_entry_isodeblur">Deofuscar</string>
+
+    <!-- Settings screen, Select lens shading title -->
+    <string name="pref_camera_lensshading_title">Sombreamento de lente</string>
+
+    <!-- Settings screen, lens shading radio button choices -->
+    <string name="pref_camera_lensshading_entry_enable">Habilitar</string>
+    <string name="pref_camera_lensshading_entry_disable">Desabilitar</string>
+
+    <!-- Settings screen, Anti Banding title -->
+    <string name="pref_camera_antibanding_title">Reduzir tremulação</string>
+
+    <!-- Settings screen, Anti Banding entries -->
+    <string name="pref_camera_antibanding_entry_0">Desligado</string>
+
+    <!-- Settings screen, Select auto exposure title -->
+    <string name="pref_camera_autoexposure_title">Modo de medição</string>
+
+    <!-- Settings screen, auto exposure dialog radio button choices -->
+    <string name="pref_camera_autoexposure_entry_frameaverage">Moldura média</string>
+    <string name="pref_camera_autoexposure_entry_centerweighted">Centro ponderado</string>
+    <string name="pref_camera_autoexposure_entry_spotmetering">Medição pontual</string>
 </resources>

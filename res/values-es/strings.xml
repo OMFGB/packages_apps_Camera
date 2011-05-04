@@ -49,7 +49,7 @@
     <string name="pref_video_quality_entry_high" msgid="2874184763684055612">"Alta (30 min)"</string>
     <string name="pref_video_quality_entry_low" msgid="5282945640948667598">"Baja (30 m)"</string>
     <string name="pref_video_quality_entry_mms" msgid="2271260293894247704">"MMS (baja, 30 s)"</string>
-    <string name="pref_video_quality_entry_youtube" msgid="3731902408685997150">"YouTube (alta, 10 min)"</string>
+    <string name="pref_video_quality_entry_youtube" msgid="3731902408685997150">"YouTube (alta, 15 min)"</string>
     <string name="pref_camera_settings_category" msgid="2576236450859613120">"Configuración de cámara"</string>
     <string name="pref_camcorder_settings_category" msgid="460313486231965141">"Configuración de videocámara"</string>
     <string name="pref_camera_picturesize_title" msgid="4333724936665883006">"Tamaño de imagen"</string>
@@ -113,4 +113,44 @@
     <string name="zoom_control_title" msgid="6532562653386981815">"Zoom"</string>
     <string name="switch_to_camera_lable" msgid="8248495141797448471">"Cambiar a cámara"</string>
     <string name="switch_to_video_lable" msgid="4525451949497982385">"Cambiar a vídeo"</string>
+     
+
+    <!-- Settings screen, Select Iso title -->
+    <string name="pref_camera_iso_title">ISO</string>
+
+    <!-- Settings screen, ISO dialog radio button choices -->
+    <string name="pref_camera_iso_entry_auto">Automático</string>
+    <string name="pref_camera_iso_entry_isodeblur">Deblur</string>
+    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+
+    <!-- Settings screen, Select lens shading title -->
+    <string name="pref_camera_lensshading_title">Sombreado de lente</string>
+
+    <!-- Settings screen, lens shading radio button choices -->
+    <string name="pref_camera_lensshading_entry_enable">Habilitar</string>
+    <string name="pref_camera_lensshading_entry_disable">Deshabilitar</string>
+
+    <!-- Settings screen, Anti Banding title -->
+    <string name="pref_camera_antibanding_title">Reducción de parpadeo</string>
+
+    <!-- Default Anti Banding setting. -->
+    <string name="pref_camera_antibanding_default">Automático</string>
+
+    <!-- Settings screen, Anti Banding entries -->
+    <string name="pref_camera_antibanding_entry_0">Desactivado</string>
+    <string name="pref_camera_antibanding_entry_1">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz</string>
+    <string name="pref_camera_antibanding_entry_3">Automático</string>
+
+    <!-- Settings screen, Select auto exposure title -->
+    <string name="pref_camera_autoexposure_title">Modo de medición</string>
+
+    <!-- Settings screen, auto exposure dialog radio button choices -->
+    <string name="pref_camera_autoexposure_entry_frameaverage">Promedio de marco</string>
+    <string name="pref_camera_autoexposure_entry_centerweighted">Centro ponderado</string>
+    <string name="pref_camera_autoexposure_entry_spotmetering">Medición puntual</string>
 </resources>
