@@ -86,6 +86,8 @@ public class CameraSettings {
     private final CameraInfo[] mCameraInfo;
     private final int mCameraId;
 
+    public static final String FOCUS_MODE_TOUCH = "touch";
+
     public CameraSettings(Activity activity, Parameters parameters,
                           CameraInfo[] cameraInfo, int cameraId) {
         mContext = activity;
@@ -225,8 +227,11 @@ public class CameraSettings {
             if (isFrontFacingCamera() && !mContext.getResources().getBoolean(R.bool.ffc_canFocus)) {
                 filterUnsupportedOptions(group, focusMode, new ArrayList<String>());
             } else {
-                filterUnsupportedOptions(group,
-                        focusMode, mParameters.getSupportedFocusModes());
+                List<String> focusModes = mParameters.getSupportedFocusModes();
+                if (isHtcCamera(mParameters)) {
+                    focusModes.add(FOCUS_MODE_TOUCH);
+                }
+                filterUnsupportedOptions(group, focusMode, focusModes);
             }
         }
 
