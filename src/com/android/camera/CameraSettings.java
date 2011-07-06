@@ -228,7 +228,11 @@ public class CameraSettings {
                 filterUnsupportedOptions(group, focusMode, new ArrayList<String>());
             } else {
                 List<String> focusModes = mParameters.getSupportedFocusModes();
-                if (isHtcCamera(mParameters)) {
+                boolean allowTouchFocus = isHtcCamera(mParameters) ||
+                                          isNVCamera(mParameters)  ||
+                                          mParameters.get("mot-areas-to-focus") != null;
+
+                if (allowTouchFocus) {
                     focusModes.add(FOCUS_MODE_TOUCH);
                 }
                 filterUnsupportedOptions(group, focusMode, focusModes);
