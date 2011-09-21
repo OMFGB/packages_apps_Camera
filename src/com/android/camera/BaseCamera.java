@@ -236,9 +236,14 @@ public abstract class BaseCamera extends NoSearchActivity
 	     * Arguments to configure a region are:
              *      regionId,x-for-ul-corner,y-for-ul-corner,width,height
              */
-            mParameters.set(paramName, "1," +
-                    focusRect.left + "," + focusRect.top + "," +
-                    focusRect.width() + "," + focusRect.height());
+            int size = 80;
+            mParameters.set("nv-areas-to-focus", "1,"+(x-(size/2))+","+(y-(size/2))+","+size+","+size);
+        } else if (mParameters.get("mot-max-areas-to-focus") != null) {
+            /* Motorola's libcamera uses the same format as Nvidia's:
+             * regionId,left,top,width,height
+             */
+            int size = 80;
+            mParameters.set("mot-areas-to-focus", "1,"+(x-(size/2))+","+(y-(size/2))+","+size+","+size);
         } else {
 	    /* use center point */
             mParameters.set(paramName, focusRect.centerX() + "," + focusRect.centerY());
